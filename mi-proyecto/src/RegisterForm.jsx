@@ -1,6 +1,5 @@
-// RegisterForm.jsx
 import React from 'react';
-import './App.css';  // Asegúrate de que la ruta sea correcta
+import './App.css'; 
 
 
 const RegisterForm = () => {
@@ -19,7 +18,7 @@ const RegisterForm = () => {
 
         <label htmlFor="password">Contraseña</label>
         <input type="password" id="password" name="password" />
-        
+
         <label htmlFor="confirm-password">Confirmar contraseña</label>
         <input type="password" id="confirm-password" name="confirm-password" />
 
